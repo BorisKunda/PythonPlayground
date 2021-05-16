@@ -1,18 +1,29 @@
-class Avenger:
-    def __init__(self, name, attack):
-        self.name = name + " ---- "
-        self.attack = attack
+# data
+from typing import List, Set
+
+alpha = "Alpha"
+beta = "Beta"
+
+plist: List[int] = [0, 1, 2, 3]
+pSet: Set[str] = {"apple", "banana", "cherry"}
+pTuple = 1, 2, 3
 
 
-# -----
+# methods
 
-print("AVENGERS ASSEMBLE !!!")
+def a(): print("A")
 
-a1 = Avenger("Spiderman", "SHOOTS WEBS")
-a2 = Avenger("Punisher", "LAUNCHES ROCKET")
-a3 = Avenger("Thor", "THROWS HAMMER")
 
-avengers = [a1, a2, a3]
+def b(): print("B")
 
-for hero in avengers:
-    print(hero.name + hero.attack)
+
+def c(): pass
+
+
+# ----  ----
+# ----  ----
+# ---- EXECUTION ----
+# ----  ----
+# ----  ----
+
+
