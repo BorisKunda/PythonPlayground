@@ -23,13 +23,13 @@ pTuple = 1, 2, 3
 
 # methods
 
-def a(): print("A")
+def method1(): print("A")
 
 
-def b(): print("B")
+def method2(): print("B")
 
 
-def c(): pass
+def method3(): pass
 
 # ----  ----
 # ----  ----
