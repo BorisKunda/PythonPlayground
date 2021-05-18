@@ -33,8 +33,11 @@ def method2(): print("B")
 
 def method3(): pass
 
+
 # ----  ----
 # ----  ----
 # ---- EXECUTION ----
 # ----  ----
 # ----  ----
+
+print("HelloWorld")
