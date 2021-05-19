@@ -34,7 +34,3 @@ def perform_g(a, b):
 
 
 perform_a()
-
-
-
-
