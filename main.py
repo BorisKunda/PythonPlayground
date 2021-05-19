@@ -36,6 +36,12 @@ def method3():
     pass
 
 
+funAsVar = method2
+
+
+# called like this funAsVar()
+
+
 def nested_method(outer_arg):
     print("outer call", outer_arg)
 
@@ -44,8 +50,4 @@ def nested_method(outer_arg):
 
     return inner_method(outer_arg)
 
-
 # ---- EXECUTION ----
-
-
-nested_method("nested_method_arg")
