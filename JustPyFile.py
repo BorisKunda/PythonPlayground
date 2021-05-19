@@ -30,10 +30,10 @@ def perform_g(a, b):
         perform_c()
 
 
+# execution
 
 
-
-
+perform_a()
 
 
 
