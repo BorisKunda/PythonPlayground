@@ -1,16 +1,21 @@
-def perform_a(): print("a")
+def perform_a():
+    print("a")
 
 
-def perform_b(): print("b")
+def perform_b():
+    print("b")
 
 
-def perform_c(): print("c")
+def perform_c():
+    print("c")
 
 
-def perform_d(): print("d")
+def perform_d():
+    print("d")
 
 
-def perform_e(): print("e")
+def perform_e():
+    print("e")
 
 
 def perform_f():
@@ -23,6 +28,8 @@ def perform_g(a, b):
     else:
         perform_b()
         perform_c()
+
+
 
 
 
