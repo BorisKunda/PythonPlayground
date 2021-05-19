@@ -36,7 +36,16 @@ def method3():
     pass
 
 
+def nested_method(outer_arg):
+    print("outer call", outer_arg)
+
+    def inner_method(inner_arg):
+        print("inner call", inner_arg)
+
+    return inner_method(outer_arg)
+
+
 # ---- EXECUTION ----
 
 
-print("HelloWorld")
+nested_method("nested_method_arg")
