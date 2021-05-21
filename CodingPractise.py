@@ -1,32 +1,48 @@
 # variables
+from typing import List
+
 exclamation_mark = "\""
-text_with_exclamation_mark = "abcd\""
+test_text_with_exclamation_mark = "\"abcd\""
 
 
 # methods
-def remove_exclamation_marks(text):
-    indexes_list = []
+def get_exclamation_marks_index_location(text: str):
+    indexes_list: List[int] = []
     for element in range(0, len(text)):
         if text[element] == exclamation_mark:
             indexes_list.append(element)
-    print(indexes_list)
+    return indexes_list
 
 
+testList = get_exclamation_marks_index_location(test_text_with_exclamation_mark)
+print(testList)
+
+
+# abcde
+# def slice_string(text: str): pass
+# char at middle
+# t1 = text[0:3]
+# t2 = text[4:len(text)]
+# t_final = t1+t2
+# char at start
+# t = text[1:len(text)]
+# char at end
+# lf = len(text)-1
+# ll = len(text)
+# t = text[lf:ll]
+# print(t)
 # execution
-remove_exclamation_marks(text_with_exclamation_mark)
-
-#   notes
 #   task
 #   ---
 #   input string
 #   output string without exclamation marks
 #   ---
-#   string abc  check every letter if " remove
 #   loop through string as array of chars and remove every wrong char
 #   ---
 #   1.remove chars from string
 #   2.loop through string   --- DONE
 #   ---
+#   string removal:
 #   slice(start, stop, step)
 #   s[start:stop:step]
 #   l = len(py_string)
